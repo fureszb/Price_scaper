@@ -1,0 +1,21 @@
+.venv-en belul kell futtatni
+
+pip install --upgrade pip wheel setuptools
+
+pip install scrapy==2.11.1
+pip install scrapy-playwright==0.0.30
+pip install playwright==1.40.0
+pip install greenlet==3.0.3
+pip install greenlet==2.0.2
+pip install playwright==1.38.0
+pip install scrapy-playwright==0.0.29
+pip install requests pandas openpyxl
+
+
+python -m playwright install chromium
+
+pip show scrapy scrapy-playwright playwright greenlet
+
+pip install --upgrade scrapy-playwright playwright
+playwright install
+
